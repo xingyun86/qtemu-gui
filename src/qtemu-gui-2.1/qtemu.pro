@@ -54,7 +54,10 @@ TEMPLATE = app
 CONFIG += c++14
 
 DEFINES += QT_DEPRECATED_WARNINGS
-
+QMAKE_CFLAGS_DEBUG += -MTd
+QMAKE_CXXFLAGS_DEBUG += -MTd
+QMAKE_CFLAGS_RELEASE += -MT
+QMAKE_CXXFLAGS_RELEASE += -MT
 SOURCES +=  src/main.cpp\
             src/components/customfilter.cpp \
             src/mainwindow.cpp \
