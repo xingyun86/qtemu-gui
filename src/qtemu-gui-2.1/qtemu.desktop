@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Name=QtEmu
+
+GenericName=QEMU front-end
+GenericName[ca]=QEMU front-end
+GenericName[es]=QEMU front-end
+
+
+Comment=A front-end written in Qt for the QEMU emulator
+Comment[ca]=Un front-end escrit en Qt per l'emulador QEMU
+Comment[es]=Un front-end escrito en Qt para el emulador QEMU
+
+
+Icon=qtemu
+Exec=qtemu
+Terminal=false
+StartupNotify=false
+Categories=Qt;System;
+Keywords=QEMU;emulator;
